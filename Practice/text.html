@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Styling in html</title>
+    <style>
+      .p1 {
+        display: inline-block;
+      }
+      .rideInput {
+        display: block;
+        background-color: #f2f3f4;
+        color: #a6acaf;
+        padding: 15px 25px 15px 25px;
+        margin: 5px 10px 5px 0px;
+        border: none;
+        width: 235px;
+      }
+      .b1 {
+        background-color: black;
+        color: azure;
+        padding: 15px 20px 15px 20px;
+        border: none;
+        font-weight: bold;
+      }
+      .b2 {
+        background-color: #cacfd2;
+        color: black;
+        padding: 15px 20px 15px 20px;
+        margin: 5px;
+        border: none;
+        font-weight: bold;
+      }
+      .title {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="p1">
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey ?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+
+    <p>Uber ride request form :</p>
+
+    <div>
+      <p class="title">Request a ride now</p>
+      <input
+        class="rideInput"
+        type="text"
+        placeholder="Enter pick up location"
+      />
+      <input class="rideInput" type="text" placeholder="Enter destination" />
+      <button class="b1">Request Now</button>
+      <button class="b2">Schedule for later</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+</body>
+</html>
+
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+
+A screen reader will pronounce the words in <em> with an emphasis, using verbal stress.
+
+The HTML <blockquote> element defines a section that is quoted from another source.
+
+title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>s
